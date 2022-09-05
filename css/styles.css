@@ -160,15 +160,21 @@ footer{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
-td{
+i{
     color: white;
     border: 1px solid white;
-    padding: 15px;
-    border-radius: 5px;
+    padding: 20px;
+    border-radius: 50%;
+}
+i:hover{
+    transition-delay: 0s;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out; 
+    transform: scale(1.9);
 }
 td:hover{
     transition-delay: 0s;
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out; 
-    transform: scale(2.1);
+    transform: rotate(360deg);
 }
